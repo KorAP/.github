@@ -7,12 +7,13 @@ It is mainly developed at the [Leibniz Institute for German Language](https://ww
 
 ## Run and test KorAP locally
 
-Prerequisite: [docker](https://www.docker.com/) (including the docker-compose-v2-plugin)
-
-To run KorAP with an example corpus, use the following command:
+Running your own KorAP is super easy. Just copy and paste this line:
 
 ```bash
-curl https://raw.githubusercontent.com/KorAP/KorAP-Docker/master/compose.yaml | INDEX='example-index' docker compose -p korap -f - --profile=lite --profile=example up
+curl https://raw.githubusercontent.com/KorAP/KorAP-Docker/master/compose.yaml | COMPOSE_PROFILES="example" INDEX='example-index' docker compose -p korap up
 ```
 
 This will download the necessary images, start KorAP, and make the web UI available at [http://localhost:64543/](http://localhost:64543/).
+
+Prerequisite: [docker](https://www.docker.com/) (including the docker-compose-v2-plugin)
+
