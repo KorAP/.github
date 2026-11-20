@@ -24,7 +24,6 @@ To run KorAP on an existing index or with login, see [KorAP-Docker](https://gith
 
 - [RKorAPClient](https://github.com/KorAP/RKorAPClient) – R package for queries, frequencies and collocations
 - [PythonKorAPClient](https://github.com/KorAP/PythonKorAPClient) – the same for Python
-- [KorapSRU](https://github.com/KorAP/KorapSRU) – CLARIN Federated Content Search endpoint
 
 ## Components
 
@@ -43,5 +42,4 @@ Conversion and annotation tools: [KorAP-XML-TEI](https://github.com/KorAP/KorAP-
 
 ## Feedback
 
-Software bugs: open an issue in the component's repository, e.g. [Kalamar](https://github.com/KorAP/Kalamar/issues).
-Problems with corpus content (texts, metadata, annotations): [DeReKo-Issues](https://github.com/KorAP/DeReKo-Issues).
+Found a problem or have a question? Open an issue at [Kalamar](https://github.com/KorAP/Kalamar/issues) – we will take it from there.
